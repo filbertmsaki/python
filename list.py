@@ -32,6 +32,7 @@ subject.remove('History');
 print("New list ", subject); 
 
 subject.insert(1,'History');
+
 grade.insert(5,'F');
 print("\n","New List After Insert");
 print ("Subjects : ",subject);
