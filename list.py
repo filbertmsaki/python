@@ -18,3 +18,30 @@ print ("\n");
 print ("Current Grades = ", grade);
 del grade[5];
 print ("Remaining Grades", grade);
+print ("\n");
+
+#Check the lenght of list maximum and minimum values
+print("Length of marks is", len(marks));
+print("Maximum value of marks is ",max(marks));
+print("Minimum value of marks is ", min(marks));
+print("\n");
+
+#remove(), insert(), reverse(), sort()
+print("List of Subject",subject);
+subject.remove('History');
+print("New list ", subject); 
+
+subject.insert(1,'History');
+grade.insert(5,'F');
+print("\n","New List After Insert");
+print ("Subjects : ",subject);
+print ("Grades :", grade);
+#reverse
+grade.reverse();
+print ("Grades",grade);
+
+#Sort
+grade.sort();
+print ("Grades",grade);
+
+
